@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos de la psicopedagogía',
+    numeroUnidad: '3',
+    tituloUnidad: 'Intervención psicopedagógica en contextos diversos',
   },
   menuPrincipal: {
     menu: [
@@ -31,43 +31,30 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos de la psicopedagogía',
+        titulo: 'Intervención psicopedagógica en contextos diversos',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Diseño de programas psicopedagógicos inclusivos',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Desarrollo cognitivo y socioemocional',
+        titulo: 'Diseño Universal del Aprendizaje',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Roles en la teoría cognitiva',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'La enseñanza y evaluación cognitiva',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Desarrollo socioemocional',
-            hash: 't_2_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Teorías del aprendizaje y su relación con el desarrollo psicopedagógico',
+        titulo: 'Plan Individual de Ajustes Razonables (PIAR)',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -109,151 +96,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Alanís, P., Gutiérrez, D. (2011). Los estilos de aprendizaje en estudiantes de telesecundaria.',
+        'Asociación Americana de Psiquiatría. (2014). Guía de consulta de los criterios diagnósticos del DSM-5.',
       link:
-        'file:///C:/Users/smd/Downloads/DialnetLosEstilosDeAprendizajeEnEstudiantesDeTelesecundar-4034711.pdf',
+        'https://www.eafit.edu.co/ninos/reddelaspreguntas/Documents/dsm-v-guia-consulta-manual-diagnostico-estadistico-trastornos-mentales.pdf',
     },
     {
       referencia:
-        'Caro, E., Monroy, M. (2008). Relación de los Ambientes Hipertextuales de Aprendizaje Gráfico y Sonoro, con los Estilos de Aprendizaje Verbal y Visual.',
-      link: 'http://www.redalyc.org/html/1331/133115027013/index.html',
+        'Barreno, Z., Astudillo, A., & Barreno, M. (2018). Hacia una estrategia de intervención en la comunidad: referentes teóricos metodológicos. Revista pedagógica de la universidad de Cienfuegos, 14, 258-265.',
+      link: 'http://scielo.sld.cu/pdf/rc/v14n62/rc396218.pdf',
     },
     {
       referencia:
-        'Chávez Rodríguez, J., Deler Ferrera, G., Permuy Gonzalez, L. D., & Suarez Lorenzo, A. (2007). Principales corrientes y tendencias a inicios del siglo XXI de la pedagogía y la didáctica. INSTITUTO CENTRAL DE CIENCIAS PEDAGÓGICAS.',
+        'Cabrera, A., & David, O. (2017). Estrategias psicopedagógicas dirigidas a docentes y alumnos que excluyen a niños y niñas con problemas de atención. [Tesis doctoral, Universidad técnica de Machala].',
       link:
-        'https://books.google.com.co/books?id=-xcaEAAAQBAJ&printsec=frontcover&hl=es',
+        'https://repositorio.utmachala.edu.ec/bitstream/48000/11388/1/E-6355_ARMIJOS%20CABRERA%20ORLANDO%20DAVID.pdf',
     },
     {
       referencia:
-        'Cristina Ricci. (2021). Investigación psicopedagógica e investigación en Psicopedagogía: diferenciación necesaria desde una perspectiva epocal, de la complejidad, disciplinar, profesional, inter y transdisciplinar. Revista Perspectivas metodológicas, 21, 1-22.',
-      link: 'https://revistas.unla.edu.ar/epistemologia/article/view/3442/1726',
+        'Contreras Sierra, ER. (2013). El concepto de estrategia como fundamento de la planeación estratégica. Pensamiento & Gestión, (35), 152-181.',
+      link: 'http://www.scielo.org.co/pdf/pege/n35/n35a07.pdf',
     },
     {
       referencia:
-        'Guilar, M. E. (2009). Las ideas de Bruner: De la revolución cognitiva a la revolución cultural. Educere, 13(44), 235-241.',
+        'de la Torre González, B. (2012). Una mirada a la evaluación psicopedagógica desde la labor profesional de un EOEP. Padres Y Maestros, (347), 27-31.',
       link:
-        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-49102009000100028',
+        'https://revistas.comillas.edu/index.php/padresymaestros/article/view/573',
     },
     {
       referencia:
-        'Hilda Fingermann. (2015). ¿Qué son los enfoques pedagógicos? La Guía.',
+        'Decreto 1421 del 2017. Por el cual se reglamenta en el marco de la educación inclusiva la atención educativa a la población con discapacidad. 29 de agosto de 2017.',
       link:
-        'https://educacion.laguia2000.com/ensenanza/que-son-los-enfoques-pedagogicos',
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30033428',
     },
     {
       referencia:
-        'Juan Antonio López, A. F. (2007). La sociedad y economía del conocimiento: el reto para la no exclusión de los adultos. Granada, España.',
+        'Diccionario Etimológico Castellano. (2024). Etimología estrategia. DECEL.',
+      link: 'https://etimologias.dechile.net/?estrategia',
+    },
+    {
+      referencia:
+        'Flores, D., & Contreras, M. (2022). La evaluación psicopedagógica: una revisión del tema (2007-2022). Revista Senderos Pedagógicos, 13, 49-95.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8544875',
+    },
+    {
+      referencia:
+        'Mosquera, I. (2020). Análisis FODA en Educación: Claves para transformar la institución. Unir.',
       link:
-        'https://revistaseug.ugr.es/index.php/publicaciones/article/view/2275/2394',
+        'https://ecuador.unir.net/actualidad-unir/analisis-dafo-en-educacion/',
     },
     {
       referencia:
-        'Ortiz, A. (2013). Modelos pedagógicos y teorías del aprendizaje. Magdalena, Colombia.',
-      link:
-        'https://www.researchgate.net/publication/315835198_Modelos_Pedagogicos_y_Teorias_del_Aprendizaje',
+        'Muñoz, C., Muñoz, S., & Virán, A. (2024). Estrategias e investigaciones desde las didácticas. RiL editores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/268338',
     },
     {
       referencia:
-        'Penã Rodriguez, F., & Acevedo Zapata, S. (2011). El campo de la psicopedagogía: Discusiones, procesos de formación, identidad y prácticas. Revista Brasileira de Orientação Profissional, 12(1), 127-132.',
-      link: 'https://www.redalyc.org/pdf/2030/203018660014.pdf',
+        'Osoria Barcelay, M., & Pemberton Beltrán, FV. (2014). Herramientas psicopedagógicas en el trabajo independiente. EduSol, 14(47), 1-10.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=5678374',
     },
     {
       referencia:
-        'Rafael Bisquerra. (1996). Orígenes y desarrollo de la orientación psicopedagógica. Narcea S.A de Ediciones.',
-      link:
-        'http://www.uvirtual.net/sites/default/files/2016-11/bXVdos-Unidad01_LC_01_BISQUERRA.pdf',
+        'Real Academia Española. (2014). Diccionario de la lengua española. RAE.',
+      link: 'https://dle.rae.es/estrategia',
     },
     {
       referencia:
-        'Rafel Bisquerra. (2014). Los orígenes de la psicopedagogía: El concepto y el término. Revista Española de Orientación y Psicopedagogía, 13, 17-29.',
-      link: 'https://doi.org/10.5944/reop.vol.13.num.1.2002.11583',
-    },
-    {
-      referencia:
-        'Seijo, C. B. (2012). El cerebro triuno y la inteligencia ética: matriz fundamental de la inteligencia multifocal. Revista Praxis, 8, 147-165.',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=5907276',
-    },
-    {
-      referencia:
-        'Tutaya, S. G. (2019). Funciones de la psicopedagogía: como una disciplina importante para el aprendizaje. Chincha, Perú.',
-      link:
-        'https://repositorio.untumbes.edu.pe/handle/20.500.12874/1431?show=full',
-    },
-    {
-      referencia:
-        'Vargas Silva, F. A. (2019). Tendencias, corrientes y modelos pedagógicos: relaciones, semejanzas y diferencias. (Una mirada desde Occidente) (1 ed.). Tolima, Sello Editorial Universidad del Tolima.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/228354?page=136',
+        'Toala, L., Cedeño, L., Rodríguez, M., & Cusme, K. (2024). Estrategias para la Intervención Psicopedagógica en el Aula. Dialnet, 10, 439-455.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=9502303',
     },
   ],
   glosario: [
     {
-      termino: 'Cognitivo',
-      significado: 'Perteneciente o relativo al conocimiento',
-    },
-    {
-      termino: 'Didáctica',
+      termino: 'Construcción',
       significado:
-        'Propio, adecuado o con buenas condiciones para enseñar o instruir',
+        'Proceso de crear algo, ya sea físico o conceptual. Implica la unión de partes para formar un todo.',
     },
     {
-      termino: 'Diversidad',
-      significado: 'Variedad, desemejanza, diferencia',
-    },
-    {
-      termino: 'Emociones',
+      termino: 'Diseño',
       significado:
-        'Alteraciones del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática',
+        'Creación de un plan o esquema para la realización de algo. Se enfoca en la forma, estructura y funcionalidad.',
     },
     {
-      termino: 'Estadios',
-      significado: 'Período o fase de un proceso',
-    },
-    {
-      termino: 'Inteligencia',
+      termino: 'DUA',
       significado:
-        'Capacidad de entender o comprender. Capacidad de resolver problemas',
+        'Diseño universal para el aprendizaje. Es un enfoque que busca hacer los entornos de aprendizaje más accesibles e inclusivos para todos los estudiantes, independientemente de sus habilidades o discapacidades.',
     },
     {
-      termino: 'Interdisciplinariedad',
+      termino: 'Enfoques',
       significado:
-        'Dicho de un estudio o de otra actividad: que se realiza con la cooperación de varias disciplinas',
+        'Perspectivas o puntos de vista desde los cuales se aborda un tema o problema. Son las diferentes maneras de entender y analizar una situación.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Estrategias',
       significado:
-        'Facultad psíquica por medio de la cual se retiene y recuerda el pasado',
+        'Planes o acciones diseñadas para alcanzar un objetivo específico. Son los métodos que se utilizan para lograr un resultado deseado.',
     },
     {
-      termino: 'Modelo',
+      termino: 'Etapas',
       significado:
-        'Arquetipo o punto de referencia para imitarlo o reproducirlo',
+        'Fases o pasos sucesivos de un proceso. Cada etapa contribuye al avance hacia un objetivo final.',
     },
     {
-      termino: 'Pensamiento',
+      termino: 'Evaluación',
       significado:
-        'Conjunto de ideas propias de una persona, de una colectividad o de una época',
+        'Proceso de valorar o juzgar algo. En educación, se utiliza para medir el progreso de los estudiantes y la efectividad de las intervenciones.',
     },
     {
-      termino: 'Psicología',
+      termino: 'Intervención',
       significado:
-        'Ciencia o estudio de la mente y de la conducta en personas o animales',
+        'Acción realizada para modificar o mejorar una situación. En el ámbito educativo, puede referirse a acciones para apoyar a estudiantes con dificultades de aprendizaje.',
     },
     {
-      termino: 'Psicopedagogía',
+      termino: 'Modelos',
       significado:
-        'Rama de la psicología que se ocupa de los fenómenos de orden psicológico para llegar a una formulación más adecuada de los métodos didácticos y pedagógicos',
+        'Representaciones simplificadas de la realidad. Se utilizan para explicar fenómenos complejos y predecir resultados.',
     },
     {
-      termino: 'Socioemocional',
+      termino: 'PIAR',
       significado:
-        'Conductas aprendidas que llevamos a cabo cuando interactuamos con otras personas y que nos son útiles para expresar nuestros sentimientos, actitudes, opiniones y defender nuestros derechos',
+        'Herramienta educativa que busca la inclusión de estudiantes con barreras en el aprendizaje en aulas regulares.',
     },
     {
-      termino: 'Teoría',
+      termino: 'Programa',
       significado:
-        'Conocimiento especulativo considerado con independencia de toda aplicación',
+        'Conjunto de actividades planificadas y coordinadas para alcanzar un objetivo. Es un plan de acción detallado.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'Susceptibilidad a sufrir daños o perjuicios. En el contexto educativo, puede referirse a la vulnerabilidad de ciertos estudiantes a experimentar dificultades de aprendizaje o exclusión.',
     },
   ],
   complementario: [

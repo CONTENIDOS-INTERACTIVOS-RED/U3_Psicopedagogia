@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad 1 aborda conceptos clave de psicopedagogía, desarrollo cognitivo y socioemocional, y teorías educativas como las de Piaget, Bruner y Vygotsky. Se destacan modelos pedagógicos que promueven un aprendizaje activo y adaptativo, integrando competencias cognitivas y emocionales. La psicopedagogía, como disciplina interdisciplinaria, conecta teoría y práctica, facilitando la comprensión de procesos de enseñanza-aprendizaje y el diseño de experiencias significativas en contextos diversos, potenciando un desarrollo educativo integral.
+              p.descripcion.mb-4 La intervención psicopedagógica en contextos diversos busca superar barreras y fomentar el aprendizaje mediante estrategias adaptadas al contexto. Involucra modelos como el conductual, sistémico, humanista y psicoanalítico, con etapas clave: diagnóstico, proyección, aplicación y evaluación. Destaca el diseño inclusivo para atender TEA, TDA-H y trastornos de aprendizaje, apoyándose en herramientas como el DUA (compromiso, representación y expresión) y el PIAR (ajustes razonables). Elementos esenciales incluyen objetivos claros, recursos adecuados y evaluación constante, asegurando estrategias sostenibles que integren aspectos emocionales, sociales y académicos del estudiante.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada paso que das en el aprendizaje es una puerta abierta hacia nuevas posibilidades; cree en tu capacidad para transformar y ser transformado.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada estudiante tiene un potencial único; con la guía adecuada, las barreras se transforman en oportunidades para aprender, crecer y brillar.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
