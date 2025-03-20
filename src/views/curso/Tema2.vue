@@ -21,19 +21,19 @@
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-31.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Proporcionar múltiples  formas de compromiso
-              p.px-1.text-small.mb-0.d-flex.text-center Aborda el “<b>por qué</b>” del aprendizaje, fomentando la motivación y el interés de los estudiantes.
+              p.px-1.text-small.mb-0.text-center Aborda el "<b>por qué </b>" del aprendizaje, fomentando la motivación y el interés de los estudiantes.
           
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-31.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Proporcionar múltiples medios de representación
-              p.px-1.text-small.mb-0.d-flex.text-center Se centra en el “<b>qué</b>” del aprendizaje, diversificando la presentación de la información.
+              p.px-1.text-small.mb-0.text-center Se centra en el “<strong>qué</strong>” del aprendizaje, diversificando la presentación de la información.
           
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-31.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Proporcionar múltiples medios de expresión
-              p.px-1.text-small.mb-0.d-flex.text-center Enfoca el “<b>cómo</b>” del aprendizaje, permitiendo que los estudiantes demuestren lo que saben de diversas maneras. 
+              p.px-1.text-small.mb-0.text-center Enfoca el “<strong>cómo</strong>” del aprendizaje, permitiendo que los estudiantes demuestren lo que saben de diversas maneras. 
           
     p.mb-4 Estos principios se fundamentan en las neurociencias, que explican que cada persona aprende de forma única. Según este enfoque, el aprendizaje activa tres redes neuronales principales:
     p.mb-3 <strong>Tabla 1.</strong> Principios fundamentales  en las neurociencias
@@ -53,7 +53,7 @@
           tr
             td.borde-right-gris.text-bold.text-center Redes de reconocimiento 
             td.borde-right-gris  Procesan el <b>qué</b> del aprendizaje, vinculadas al acceso y comprensión de la información.
-            td Proporcionar múltiples medios de representación
+            td Proporcionar múltiples medios de representación.
           tr
             td.borde-right-gris.text-bold.text-center Redes estratégicas  
             td.borde-right-gris Relacionadas con el <b>cómo</b> del aprendizaje, enfocadas en la expresión y ejecución.

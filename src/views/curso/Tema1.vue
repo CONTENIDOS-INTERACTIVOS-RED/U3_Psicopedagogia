@@ -151,7 +151,6 @@
     
     h3 Etapa de diagnóstico
     p.mb-4 La primera etapa en la construcción de una estrategia psicopedagógica inicia con un proceso de sensibilización y concientización de todos los actores implicados, ya sea que la intervención se realice de forma individual o grupal. Su objetivo es diagnosticar al estudiante o estudiantes, así como la situación y/o barrera que afecta el aprendizaje, mediante la participación de docentes, familias y el mismo educando. Esto se aborda como un trabajo en equipo.
-    p.mb-4 La primera etapa en la construcción de una estrategia psicopedagógica inicia con un proceso de sensibilización y concientización de todos los actores implicados, ya sea que la intervención se realice de forma individual o grupal. Su objetivo es diagnosticar al estudiante o estudiantes, así como la situación y/o barrera que afecta el aprendizaje, mediante la participación de docentes, familias y el mismo educando. Esto se aborda como un trabajo en equipo.
 
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
@@ -238,7 +237,7 @@
             p.mb-0 <b>Registros continuos:</b> se documentan los avances y procesos durante la intervención, lo que permite una evaluación constante y un mayor control de los resultados.
 
         .bg-amarillo.p-4
-          span Estas etapas permiten una planificación, ejecución y evaluación coherentes de estrategias psicopedagógicas, asegurando que se adapten al contexto y las necesidades específicas de los estudiantes, y que ofrezcan rutas claras para superar las barreras de aprendizaje
+          span Estas etapas permiten una planificación, ejecución y evaluación coherentes de estrategias psicopedagógicas, asegurando que se adapten al contexto y las necesidades específicas de los estudiantes, y que ofrezcan rutas claras para superar las barreras de aprendizaje.
 
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')

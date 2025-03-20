@@ -6,7 +6,7 @@
     p.mb-4  El Plan Individual de Ajustes Razonables (PIAR) es una herramienta diseñada para garantizar los procesos de enseñanza y aprendizaje de estudiantes con barreras transitorias o permanentes en el acceso al aprendizaje. Según el Decreto 1421 de 2017, el PIAR incluye los apoyos necesarios para asegurar la participación, permanencia y promoción educativa, siendo un complemento al Diseño Universal del Aprendizaje (DUA). A continuación, se describen los elementos fundamentales del PIAR:
     h2 Componentes del PIAR
     p.mb-4 Los componentes del PIAR incluyen la valoración pedagógica, que analiza el contexto del estudiante; la identificación de barreras, centrada en eliminar obstáculos en el entorno; el planteamiento de objetivos claros y ajustados al currículo; los ajustes razonables, diseñados para fomentar la inclusión; el acta de acuerdo, que formaliza compromisos entre actores educativos; y la evaluación y seguimiento, que asegura la eficacia de las estrategias implementadas.
-    .bg-fondo-2.bg-full-width
+    .bg-fondo-2.bg-full-width.mb-4
       .px-5.pb-md-3.py-4
       
         .row.mb-4
@@ -38,7 +38,7 @@
                 p.text-bold.mb-4.text-center Evaluación y seguimiento
                 p.px-1.text-small.mb-0.d-flex.text-center Verificar la eficacia de los ajustes y realizar cambios necesarios para mejorar su aplicación.
 
-    .bg-rosa.p-4
+    .bg-rosa.p-4.mb-4
       span Con estos pasos, el PIAR se constituye en una herramienta clave para la inclusión educativa, garantizando que cada estudiante reciba los apoyos necesarios para superar las barreras que enfrenta en su proceso de aprendizaje.
     h2 Parámetros para el diseño de programa psicopedagógico
     p.mb-4 El diseño de un programa psicopedagógico debe considerar elementos fundamentales que permitan su implementación tanto grupal como individual. Este enfoque no busca ser terapéutico, sino más bien escolar e inclusivo, garantizando que el docente pueda estructurar su programa de manera adecuada y teniendo en cuenta el contexto integral del estudiante. Aunque se abordó previamente la estructura de estrategias psicopedagógicas, en este apartado se delimitan  los parámetros esenciales que deberían formar parte de un programa organizado.
@@ -51,8 +51,8 @@
             p ▪  Herramientas de análisis, como la matriz DOFA, valoración pedagógica, análisis de contextos y barreras.
           .div(titulo="Objetivos")
             p.mb-3 ▪  General: Definir el objetivo global del programa.
-
             p ▪  Específicos: Establecer metas específicas según las áreas académicas y/o socioemocionales.
+            p ▪  Logros/Competencias: Determinar las competencias de aprendizaje a alcanzar.
           .div(titulo="Logros/Competencias")
             p Determinar las competencias de aprendizaje a alcanzar.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
@@ -109,7 +109,7 @@
           h2.mb-4.pb-2.me-auto Lecturas recomendadas
           p.mb-5 Se invita a explorar el documento sobre la evaluación psicopedagógica, donde se aborda este proceso como una herramienta esencial para identificar necesidades educativas y diseñar estrategias de intervención. A través de enfoques como el psicométrico, conductual y de potencial de aprendizaje, se destacan métodos para valorar el desarrollo individual del estudiante en su contexto. Este enfoque busca no solo superar barreras de aprendizaje, sino también fomentar la autonomía, confianza y motivación del aprendiz. Una lectura clave para quienes deseen profundizar en prácticas inclusivas y efectivas en la enseñanza.
           a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" href="https://elibro.net/es/ereader/tecnologicadeloriente/231716?page=1" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            img.h-100(style="width: 48px" src='@/assets/componentes/link-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Evaluación psicopedagógica
              
 
@@ -134,6 +134,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
@@ -144,6 +148,163 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Unidad 3 - Procesos Psicopedagógicos',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué herramientas deben tener los docentes para realizar procesos psicopedagógicos efectivos?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Promover la autonomía y personalización del aprendizaje',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ignorar las necesidades emocionales de los estudiantes',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Implementar un enfoque único para todos los estudiantes',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Solo utilizar exámenes estandarizados para evaluar el aprendizaje',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cómo se evaluará la efectividad de las estrategias implementadas en un programa de intervención psicopedagógica?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La evaluación se basará únicamente en exámenes estandarizados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'No se requiere la participación de otros docentes en la evaluación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Se establecerán indicadores y registros continuos de avance.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solo se evaluará al final del año escolar.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál es el primer paso en la construcción de una estrategia psicopedagógica?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Etapa de Diagnóstico', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Evaluación final de resultados',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Implementación de programas',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'El DOFA', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Por qué es importante el trabajo en equipo en las intervenciones psicopedagógicas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Porque permite una evaluación más detallada',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Para disminuir la carga laboral de los educadores',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque fomenta la interacción entre padres y estudiantes',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para abordar las dificultades de aprendizaje de forma completa',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué enfoque pedagógico se menciona como promotor de la inclusión en el aula?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseño Universal del Aprendizaje (DUA)',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Enfoque centrado en el docente',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Enfoque conductista', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Método tradicional de enseñanza',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

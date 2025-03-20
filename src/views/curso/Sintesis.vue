@@ -2,7 +2,8 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La psicopedagogía, como disciplina clave en el ámbito educativo, ofrece herramientas teóricas y prácticas que permiten al docente resignificar su labor en contextos diversos, abordando tanto las necesidades individuales como colectivas de los estudiantes, y promoviendo un aprendizaje inclusivo y significativo.
+    p.mb-4.mb-md-5 La necesidad de diseñar programas que incluyan a los estudiantes con barreras en el aprendizaje permitiendo la inclusión y generando ajustes razonables para que superen sus dificultades, es un aspecto esencial en el educador moderno, por ello es importante tener bases claras en la realización de programas de intervención psicopedagoga que permitan al maestro en formación desenvolverse en el diseño, aplicación y evaluación de estos programas que deberán estar permeados por la diversidad de contextos que rodean al educando, sus condiciones socioemocionales y de desarrollo cognitivo y funcional.
+
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
